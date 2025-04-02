@@ -1,0 +1,138 @@
+body{
+    font-family: "kanit", sans-serif;
+    margin: 0;
+}
+
+/*Este es el estilo del encabezado*/
+header{
+    display: flex;
+    height: 70px;
+    background-color: #BFA36F;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.nombre-tienda{
+    text-decoration: none;
+    color: black;
+    transition: font-size 0.3s ease;
+}
+.nombre-tienda:hover{
+    color: white;
+    font-size: 1.2em;
+}
+nav a{
+    color: black;
+    padding: 3px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: font-size 0.3s ease;
+}
+nav a:hover{
+    color: white;
+    font-size: 1.2em;
+}
+.logo-img{
+    height: 70px;
+    margin-left: 10px;
+}
+/*Este es el estilo del encabezado*/
+
+/*Cuerpo*/
+
+article{
+    background-color: #262626;
+    height: 837px;
+}
+
+
+/*Cuerpo*/
+
+/*Pie de pagina*/
+footer{
+    background-color: #000000;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pie-de-pagina{
+    background-color: #8C6F4A;
+    height: 58px;
+    width: 285px;
+    text-align: center;
+    line-height: 56px;
+}
+/*Volver al inicio, con el icono de la casa*/
+    #arriba{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 25px;
+    }
+    .Casita{
+        display: block;
+        height: 50px;
+    }
+
+    .casita{
+        height: 50px;
+        padding: 0;
+    }
+
+/*Boton de formulario para recibir informacion*/
+    .suscripcion{
+        display: flex;
+        color: white;
+        text-decoration: none;
+    }
+/*Redes*/
+    .redes a{
+        display: inline-block;
+    }
+    .redes{
+        height: 50px;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    .Twitch{
+        height: 44px;
+        margin-bottom: 2px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .X{
+        height: 50px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .Facebook{
+        height: 50px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .Instagram{
+        height: 50px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .Youtube{
+        height: 50px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    
+/*Derechos*/
+.derechos{
+    color: white;
+    font-weight: 300;
+    justify-content: end;
+}
+/*Pie de pagina*/
